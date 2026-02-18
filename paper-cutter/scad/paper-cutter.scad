@@ -2,7 +2,7 @@ $fa = 1;
 $fs = 0.4;
 
 width = 9;
-height = 220;
+height = 216;
 gap = 1;
 thickness = 2;
 bodyWidth = width + 2 * thickness;
