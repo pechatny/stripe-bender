@@ -48,8 +48,9 @@ translate([height - pressThickness, 0, metalStandThickness + thickness - 1]) {
 }
 
 // прижималка 2
+press2Shift = 40;
 color("red")
-translate([height - pressThickness - 50, 0, metalStandThickness + thickness - 1]) {
+translate([height - pressThickness - press2Shift, 0, metalStandThickness + thickness - 1]) {
     cube([pressThickness, width, 1]);
 }
 
